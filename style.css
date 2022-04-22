@@ -1,0 +1,113 @@
+body{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color:blueviolet;
+    padding: 50px;
+
+}
+.card{
+    background-color: white;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 400px;
+    border-radius: 15px;
+}
+.pay{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.amount{
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.inner{
+    padding: 8px 19px;
+}
+.dollar{
+    color: wheat;
+    font-size: 20px;
+    font-weight: 500;
+}
+.total{
+    font-size: 20px;
+    font-weight: 500;
+    color:#6458ab;
+}
+.labletxt{
+    font-size: 13px;
+    color:wheat;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.image{
+    position: relative;
+    top: 44px;
+    right: 13px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.inputtxt{
+    color: black;
+    font-weight: bold;
+    font-size:14px;
+    padding:15px 10px;
+    border:2px solid blueviolet ;
+    border-radius: 5px;
+}
+.exptxt{
+    color: blueviolet;
+    font-size: 10px;
+    font-weight: 500;
+}
+.cvvtxt{
+    color: blueviolet;
+    font-size: 10px;
+    font-weight: 500;
+}
+.expiry{
+    padding: 10px 15px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid blueviolet;
+    border-radius: 7px;
+}
+.cvv{
+    padding: 10px 15px;
+    width: 120px;
+    border: 2px solid blueviolet;
+    border-radius: 7px;
+}
+.cancle{
+    color: #6458ab;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+.cancle:hover,
+.cancle:focus{
+    box-shadow: none;
+    color: azure;
+    background-color: blueviolet;
+
+}
+.payment{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: blueviolet;
+    border: none;
+    width: 150px;
+    color:azure ;
+    padding: 15px 10px;
+    border-radius: 11px;
+    cursor: pointer;
+}
